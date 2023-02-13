@@ -1,3 +1,7 @@
+.section {
+    padding-left: 10%;
+    padding-right: 10%;
+}
 .hero {
     background-color: #1F2937;
 }
@@ -5,15 +9,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
     }
 
-    .hero-image{
+    .hero-image {
         background-color: gray;
     }
-    .hero-signup{
+    .hero-signup {
         background-color: #3882F6;
         color: #E5E7EB;
         font-weight: bold;
+        height: 25px;
+        width: 100px;
+    }
+    .description-box {
+        display: flex;
+        flex-direction: column;
     }
 
 
