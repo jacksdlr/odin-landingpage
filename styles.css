@@ -133,11 +133,39 @@ html, body {
 .signup {
     display: flex;
     height: 300px;
+    align-items: center;
 }
     .banner {
         background-color: #3882F6;
-        
+        height: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 10px;
     }
+        .call-to-action {
+            font-size: 24px;
+            color: #F9FAF8;
+            font-weight: bold;
+        }
+        .alt-signup {
+                background-color: #3882F6;
+                color: #E5E7EB;
+                font-weight: bold;
+                height: 30px;
+                width: 100px;
+                border: 2px solid #E5E7EB;
+                border-radius: 7px;
+            }
+                .alt-signup:hover {
+                    background-color: #1f6be4;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+                .alt-signup:active {
+                    transform: translate(1px, 1px);
+                }
 
 
 .main-text {
