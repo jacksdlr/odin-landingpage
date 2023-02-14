@@ -64,12 +64,17 @@ html, body {
                 }
         .hero-image {
             background-color: rgb(106, 111, 119);
-            height: 200px;
+            height: 250px;
             display: flex;
             justify-content: center;
             align-items: center;
             flex: 1;
         }
+            .hero-image-image {
+                height: 250px;
+                width: 100%;
+                object-fit: cover;
+            }
 .information {
     background-color: white;
     height: 500px;
