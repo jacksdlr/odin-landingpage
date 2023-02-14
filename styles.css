@@ -130,6 +130,14 @@ html, body {
             color: #1F2937;
             align-self: flex-end;
         }
+.signup {
+    display: flex;
+    height: 300px;
+}
+    .banner {
+        background-color: #3882F6;
+        
+    }
 
 
 .main-text {
