@@ -72,6 +72,7 @@ html, body {
         }
             .hero-image-image {
                 height: 250px;
+                max-height: 250px;
                 width: 100%;
                 object-fit: cover;
             }
@@ -115,6 +116,8 @@ html, body {
                 .image {
                     height: 175px;
                     width: 175px;
+                    max-height: 175px;
+                    max-width: 175px;
                     object-fit: cover;
                     border-radius: 12%;
                 }
