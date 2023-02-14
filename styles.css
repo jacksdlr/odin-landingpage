@@ -166,7 +166,13 @@ html, body {
                 .alt-signup:active {
                     transform: translate(1px, 1px);
                 }
-
+footer {
+    height: 75px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .main-text {
     font-size: 48px;
